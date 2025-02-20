@@ -6,4 +6,5 @@ export default defineConfig({
   plugins: [react()],
   // Otras configuraciones...
   assetsInclude: ["**/*.png"],
+  base: "https://ernstudy.github.io/portfolio-web/",
 });

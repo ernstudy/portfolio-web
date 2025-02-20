@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import projectItems from "../../helper/projectItems";
-import { Box, Button, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import { GitHub, Launch } from "@mui/icons-material";
 import GoshtButton from "../../components/outils/GoshtButton";
 
@@ -32,8 +32,16 @@ export default function ProjectDisplay() {
                 marginBottom: "20px",
               }}
             >
-              <GoshtButton icon={<GitHub />} text="Code" />
-              <GoshtButton icon={<Launch />} text="Demo" />
+              <GoshtButton
+                icon={<GitHub />}
+                text="Code"
+                path={project.gh_link}
+              />
+              <GoshtButton
+                icon={<Launch />}
+                text="Demo"
+                path={project.site_link}
+              />
             </Box>
           </div>
         </div>

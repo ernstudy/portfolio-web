@@ -14,7 +14,7 @@ export default function PortfolioProjects() {
             <div
               className="portfolio-box"
               key={idx}
-              onClick={() => navigate(`project/${idx}`)}
+              onClick={() => navigate(`${idx}`)}
             >
               <div
                 className="portfolio-project-img"

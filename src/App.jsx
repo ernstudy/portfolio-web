@@ -29,7 +29,7 @@ export default function App() {
             <Route path="/" element={<AboutPage />} />
             <Route path="/education" element={<EducationPage />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
-            <Route path="/portfolio/project/:id" element={<ProjectDisplay />} />
+            <Route path="/portfolio/:id" element={<ProjectDisplay />} />
             <Route path="/portfolio/project" element={<PortfolioPage />} />
             <Route path="/portfolio/projects" element={<PortfolioPage />} />
             <Route path="/contact" element={<ContactPage />} />

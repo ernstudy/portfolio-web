@@ -2,6 +2,7 @@ import hamburgerProject from "../assets/images/projects-image/hambuger-site.png"
 import photographyProject from "../assets/images/projects-image/photography-site.png";
 import mathApppProject from "../assets/images/projects-image/math-app.png";
 import WeatherApp from "../assets/images/projects-image/weather-app.png";
+import pixernImg from "../assets/images/projects-image/pixern.png";
 
 const projectItems = [
   {
@@ -50,5 +51,17 @@ projectItems.push(photographywebsite);
 //   gh_link: '',
 // site_link: "";
 // },
+
+// PixXern - imges app
+const pixern = {
+  image: pixernImg,
+  name: "PixErn - Free High-Quality Images App ",
+  description:
+    " I developed this image app using React and the Unsplash API for the images. It is still a work in progress, and I plan to add more features in the future.",
+  gh_link: "https://github.com/ernstudy/pixern.git",
+  site_link: "https://ernstudy.com/portfolio/pixern/",
+};
+
+projectItems.unshift(pixern);
 
 export default projectItems;

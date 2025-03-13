@@ -18,7 +18,7 @@ export default function MobileHeader() {
         sx={{ display: { xs: "flex", md: "none" } }}
         className="header-mobile"
       >
-        <DarkMode />
+        {/* <DarkMode /> */}
         <Button onClick={() => setOpen(!open)}>
           <WidgetsOutlined
             fontSize="large"

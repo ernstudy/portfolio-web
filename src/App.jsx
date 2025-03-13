@@ -11,13 +11,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // comonents
 import AboutPage from "./pages/AboutPage";
 import EducationPage from "./pages/EducationPage";
-
+import PortfolioPage from "./pages/PortfolioPage/index";
 import ContactPage from "./pages/ContactPage";
 import SideBar from "./components/SideBar";
 import MobileHeader from "./components/MobileHeader";
 import ProjectDisplay from "./pages/ProjectDisplay/ProjectDisplay";
 import Footer from "./components/header_footer/Footer";
-import PortfolioPage from "./pages/PortfolioPage";
 
 export default function App() {
   return (
@@ -29,7 +28,7 @@ export default function App() {
           <Routes>
             <Route path="/" element={<AboutPage />} />
             <Route path="/education" element={<EducationPage />} />
-            <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/portfolio/" element={<PortfolioPage />} />
             <Route path="/portfolio/:id" element={<ProjectDisplay />} />
             <Route path="/contact" element={<ContactPage />} />
           </Routes>

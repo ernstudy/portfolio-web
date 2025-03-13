@@ -14,7 +14,7 @@ import TopInfo from "../../components/TopInfo";
 import ContactMe from "./ContactMe";
 import Footer from "../../components/header_footer/Footer";
 
-export default function index() {
+export default function AboutPage() {
   return (
     <div className="home-page">
       {/* TOP INFO  */}

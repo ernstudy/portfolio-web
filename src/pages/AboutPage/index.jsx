@@ -8,8 +8,6 @@ import {
 } from "@mui/icons-material";
 import AboutMe from "./AboutMe";
 import Techno from "./Techno";
-import MyProducts from "./MyProducts";
-import LastProjects from "./LastProjects";
 import TopInfo from "../../components/TopInfo";
 import ContactMe from "./ContactMe";
 import Footer from "../../components/header_footer/Footer";
@@ -32,12 +30,6 @@ export default function AboutPage() {
 
       {/* tecchnologies */}
       <Techno />
-
-      {/* Last projects */}
-
-      {/* <LastProjects /> */}
-      {/* my products */}
-      {/* <MyProducts /> */}
 
       {/* contact me */}
       <ContactMe />

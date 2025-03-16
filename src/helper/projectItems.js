@@ -2,7 +2,7 @@ import hamburgerProject from "../assets/images/projects-image/hambuger-site.png"
 import photographyProject from "../assets/images/projects-image/photography-site.png";
 import mathApppProject from "../assets/images/projects-image/math-app.png";
 import WeatherApp from "../assets/images/projects-image/weather-app.png";
-import pixernImg from "../assets/images/projects-image/pixern.png";
+import pixernImg from "../assets/images/projects-image/pixern.jpg";
 
 const projectItems = [
   {

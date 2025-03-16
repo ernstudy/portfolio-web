@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
-import ImageProfil from "../assets/images/profil.jpg";
+import ImageProfil from "../assets/images/profile/profile.png";
 import NavSide from "./header_footer/info/NavSide";
 import TitleTop from "./TitleTop";
 import { Box, Button } from "@mui/material";

@@ -3,6 +3,7 @@ import photographyProject from "../assets/images/projects-image/photography-site
 import mathApppProject from "../assets/images/projects-image/math-app.png";
 import WeatherApp from "../assets/images/projects-image/weather-app.png";
 import pixernImg from "../assets/images/projects-image/pixern.jpg";
+import ernewsImg from "../assets/images/projects-image/ernews.png";
 
 const projectItems = [
   {
@@ -63,5 +64,17 @@ const pixern = {
 };
 
 projectItems.unshift(pixern);
+
+// ernews
+const ernews = {
+  image: ernewsImg,
+  name: "ERNews - Global news platform",
+  description:
+    " ERNews is a news application that delivers headlines and real-time updates. It provides access to global information and allows users to customize categories for a simple and straightforward experience.",
+  gh_link: "https://github.com/ernstudy/ernews.git",
+  site_link: "https://ernstudy.com/portfolio/ernews/",
+};
+
+projectItems.unshift(ernews);
 
 export default projectItems;

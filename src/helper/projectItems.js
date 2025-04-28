@@ -4,6 +4,7 @@ import mathApppProject from "../assets/images/projects-image/math-app.png";
 import WeatherApp from "../assets/images/projects-image/weather-app.png";
 import pixernImg from "../assets/images/projects-image/pixern.jpg";
 import ernewsImg from "../assets/images/projects-image/ernews.png";
+import calendarImg from "../assets/images/projects-image/calendar-app.png";
 
 const projectItems = [
   {
@@ -76,5 +77,17 @@ const ernews = {
 };
 
 projectItems.unshift(ernews);
+
+// calendar
+const calendar = {
+  image: calendarImg,
+  name: "Simple and Efficient Calendar for Event Management.",
+  description:
+    "This Calendar App displays the date, makes it easy to add and manage events effortlessly, all with an intuitive interface optimized for a smooth and efficient experience.",
+  gh_link: "https://github.com/ernstudy/calendar.git",
+  site_link: "https://calendar.ernstudy.com/",
+};
+
+projectItems.unshift(calendar);
 
 export default projectItems;
